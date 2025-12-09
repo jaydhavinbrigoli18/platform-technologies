@@ -1,0 +1,35 @@
+main{
+    display: flex;
+}
+body {
+        background: #000;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+    }
+    .form-card {
+        z-index: 1;
+        width: 550px;
+        background: #fff;
+        border-radius: 15px;  ;
+        padding: 35px 30px;
+        box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    }
+    .form-control, .form-select {
+        padding: 10px;
+    }
+.back-front
+{
+    z-index: 2;
+    top: -20px;
+    left: 16%;
+}
+
+.back-back
+{
+    right: 16%;
+    z-index: 0;
+    bottom: 0;
+}
